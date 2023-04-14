@@ -76,15 +76,15 @@ function html_form()
   $form = '<form class="row g-3" method="POST">
   <div class="col-md-6">
     <label for="FirstName" class="form-label">FirstName</label>
-    <input type="text" class="form-control" name="FirstName" placeholder="FirstName">
+    <input type="text" class="form-control" name="FirstName" placeholder="Enter your First Name">
   </div>
   <div class="col-md-6">
     <label for="LastName" class="form-label">LastName</label>
-    <input type="text" class="form-control" name="LastName" placeholder="LastName">
+    <input type="text" class="form-control" name="LastName" placeholder="Enter your Last Name">
   </div>
   <div class="col-12">
     <label for="Email" class="form-label">Email</label>
-    <input type="email" class="form-control" name="Email" placeholder="your email">
+    <input type="email" class="form-control" name="Email" placeholder="Enter your email">
   </div>
   <div class="col-12">
     <label for="Subject" class="form-label">Subject</label>
@@ -95,7 +95,7 @@ function html_form()
     <textarea type="text" class="form-control" name="Message" placeholder="Message"></textarea>
   </div>
   <div class="col-12 gap-2 d-grid">
-    <button type="submit" name="formContact" class="btn btn-primary">Contact</button>
+    <button type="submit" name="formContact" class="btn btn-primary">Send</button>
   </div>
   </form>';
   echo $form;
